@@ -12,3 +12,16 @@ yarn-error.log*
 *~
 .history/
 coverage/
+
+# Interviewer-only materials (kept in interviewer-materials branch)
+SOLUTIONS.md
+EVALUATION_RUBRIC.md
+EVALUATION_CHECKLIST.md
+INTERVIEWER_SCRIPT.md
+SAMPLE_INTERVIEW.md
+FOLLOW_UP_QUESTIONS.md
+INTERVIEW_GUIDE.md
+REPO_STRUCTURE.md
+docs/EVALUATION_RUBRIC.md
+docs/FOLLOW_UP_QUESTIONS.md
+docs/INTERVIEW_GUIDE.md

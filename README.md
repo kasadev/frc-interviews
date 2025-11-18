@@ -348,8 +348,7 @@ npm install
 
 For questions or issues:
 1. Review the [Product Requirements Document](PRD.md)
-2. Check the [Interview Guide](INTERVIEW_GUIDE.md)
-3. Contact the engineering team
+2. Contact the engineering team
 
 ## License
 
