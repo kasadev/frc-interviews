@@ -1,0 +1,146 @@
+[
+  {
+    "rate_id": "rate_exec_dt_daily_q1",
+    "room_type_id": "rt_exec_office_dt",
+    "rate_type": "daily",
+    "amount": 150,
+    "currency": "USD",
+    "effective_date": "2025-01-01",
+    "end_date": "2025-03-31"
+  },
+  {
+    "rate_id": "rate_exec_dt_daily_h2",
+    "room_type_id": "rt_exec_office_dt",
+    "rate_type": "daily",
+    "amount": 175,
+    "currency": "USD",
+    "effective_date": "2025-07-01",
+    "end_date": "2025-12-31"
+  },
+  {
+    "rate_id": "rate_exec_dt_monthly_q1",
+    "room_type_id": "rt_exec_office_dt",
+    "rate_type": "monthly",
+    "amount": 3500,
+    "currency": "USD",
+    "effective_date": "2025-01-01",
+    "end_date": "2025-03-31"
+  },
+  {
+    "rate_id": "rate_desk_dt_hourly_2025",
+    "room_type_id": "rt_hot_desk_dt",
+    "rate_type": "hourly",
+    "amount": 15,
+    "currency": "USD",
+    "effective_date": "2025-01-01",
+    "end_date": "2025-12-31"
+  },
+  {
+    "rate_id": "rate_desk_dt_daily_2025",
+    "room_type_id": "rt_hot_desk_dt",
+    "rate_type": "daily",
+    "amount": 50,
+    "currency": "USD",
+    "effective_date": "2025-01-01",
+    "end_date": "2025-12-31"
+  },
+  {
+    "rate_id": "rate_desk_dt_monthly_2025",
+    "room_type_id": "rt_hot_desk_dt",
+    "rate_type": "monthly",
+    "amount": 800,
+    "currency": "USD",
+    "effective_date": "2025-01-01",
+    "end_date": "2025-12-31"
+  },
+  {
+    "rate_id": "rate_office_tc_daily_h1",
+    "room_type_id": "rt_private_office_tc",
+    "rate_type": "daily",
+    "amount": 120,
+    "currency": "USD",
+    "effective_date": "2025-01-01",
+    "end_date": "2025-06-30"
+  },
+  {
+    "rate_id": "rate_office_tc_daily_overlap",
+    "room_type_id": "rt_private_office_tc",
+    "rate_type": "daily",
+    "amount": 125,
+    "currency": "USD",
+    "effective_date": "2025-06-15",
+    "end_date": "2025-09-30"
+  },
+  {
+    "rate_id": "rate_office_tc_daily_q4",
+    "room_type_id": "rt_private_office_tc",
+    "rate_type": "daily",
+    "amount": 130,
+    "currency": "USD",
+    "effective_date": "2025-10-01",
+    "end_date": "2025-12-31"
+  },
+  {
+    "rate_id": "rate_office_tc_monthly_2025",
+    "room_type_id": "rt_private_office_tc",
+    "rate_type": "monthly",
+    "amount": 2800,
+    "currency": "USD",
+    "effective_date": "2025-01-01",
+    "end_date": "2025-12-31"
+  },
+  {
+    "rate_id": "rate_collab_tc_hourly_h1",
+    "room_type_id": "rt_collab_space_tc",
+    "rate_type": "hourly",
+    "amount": 35,
+    "currency": "USD",
+    "effective_date": "2025-01-01",
+    "end_date": "2025-06-30"
+  },
+  {
+    "rate_id": "rate_collab_tc_daily_h1",
+    "room_type_id": "rt_collab_space_tc",
+    "rate_type": "daily",
+    "amount": 200,
+    "currency": "USD",
+    "effective_date": "2025-01-01",
+    "end_date": "2025-06-30"
+  },
+  {
+    "rate_id": "rate_4cf700de-5b54-4925-96b0-238ac7db7f9c",
+    "room_type_id": "rt_hot_desk_dt",
+    "rate_type": "daily",
+    "amount": 55,
+    "currency": "USD",
+    "effective_date": "2026-01-01",
+    "end_date": "2026-12-31"
+  },
+  {
+    "rate_id": "rate_b7560185-5c98-4def-b002-1faedfc284c6",
+    "room_type_id": "rt_exec_office_dt",
+    "rate_type": "daily",
+    "amount": 160,
+    "currency": "USD",
+    "effective_date": "2025-04-01",
+    "end_date": "2025-06-30"
+  },
+  {
+    "rate_id": "rate_d2b99894-90a7-4710-ae4b-39ce3f55f16f",
+    "room_type_id": "rt_meeting_large_dt",
+    "rate_type": "hourly",
+    "amount": 75,
+    "currency": "USD",
+    "effective_date": "2025-01-01",
+    "end_date": "2025-12-31"
+  },
+  {
+    "rate_id": "rate_08462325-909d-472b-a4b3-01135a5bffa8",
+    "room_type_id": "rt_collab_space_tc",
+    "rate_type": "hourly",
+    "amount": 40,
+    "currency": "USD",
+    "effective_date": "2025-07-01",
+    "end_date": "2025-12-31"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "property_id": "prop_downtown_hub",
+    "name": "Downtown Hub",
+    "address": "123 Main Street, San Francisco, CA 94105",
+    "timezone": "America/Los_Angeles",
+    "status": "active"
+  },
+  {
+    "property_id": "prop_tech_campus",
+    "name": "Tech Campus North",
+    "address": "456 Innovation Drive, San Jose, CA 95110",
+    "timezone": "America/Los_Angeles",
+    "status": "active"
+  }
+]

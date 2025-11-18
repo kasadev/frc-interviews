@@ -1,0 +1,69 @@
+[
+  {
+    "room_type_id": "rt_exec_office_dt",
+    "property_id": "prop_downtown_hub",
+    "name": "Executive Office",
+    "description": "Private office with premium amenities, ideal for executives and senior management",
+    "capacity": 2,
+    "amenities": [
+      "Standing Desk",
+      "Herman Miller Chair",
+      "Whiteboard",
+      "External Monitor",
+      "High-Speed Internet"
+    ]
+  },
+  {
+    "room_type_id": "rt_hot_desk_dt",
+    "property_id": "prop_downtown_hub",
+    "name": "Hot Desk",
+    "description": "Flexible workspace in open area, first-come first-served",
+    "capacity": 1,
+    "amenities": [
+      "Desk",
+      "Chair",
+      "Power Outlet",
+      "WiFi"
+    ]
+  },
+  {
+    "room_type_id": "rt_meeting_large_dt",
+    "property_id": "prop_downtown_hub",
+    "name": "Meeting Room Large",
+    "description": "Large conference room with AV equipment",
+    "capacity": 12,
+    "amenities": [
+      "Conference Table",
+      "65-inch Display",
+      "Video Conferencing",
+      "Whiteboard",
+      "Catering Setup"
+    ]
+  },
+  {
+    "room_type_id": "rt_private_office_tc",
+    "property_id": "prop_tech_campus",
+    "name": "Private Office",
+    "description": "Standard private office with essential amenities",
+    "capacity": 1,
+    "amenities": [
+      "Desk",
+      "Ergonomic Chair",
+      "Storage Cabinet",
+      "Window View"
+    ]
+  },
+  {
+    "room_type_id": "rt_collab_space_tc",
+    "property_id": "prop_tech_campus",
+    "name": "Collaboration Space",
+    "description": "Open collaboration area with flexible seating",
+    "capacity": 6,
+    "amenities": [
+      "Modular Furniture",
+      "Whiteboard Walls",
+      "Standing Tables",
+      "Lounge Seating"
+    ]
+  }
+]

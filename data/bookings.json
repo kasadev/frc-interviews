@@ -1,0 +1,24 @@
+[
+  {
+    "booking_id": "book_001",
+    "unit_id": "unit_dt_exec_003",
+    "customer_name": "Acme Corporation",
+    "customer_email": "booking@acme.com",
+    "start_date": "2025-01-15",
+    "end_date": "2025-02-14",
+    "calculated_price": 3500,
+    "currency": "USD",
+    "status": "confirmed"
+  },
+  {
+    "booking_id": "book_002",
+    "unit_id": "unit_tc_office_003",
+    "customer_name": "Jane Smith",
+    "customer_email": "jane@example.com",
+    "start_date": "2025-02-01",
+    "end_date": "2025-02-28",
+    "calculated_price": 2800,
+    "currency": "USD",
+    "status": "confirmed"
+  }
+]

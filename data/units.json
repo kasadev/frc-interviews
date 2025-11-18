@@ -1,0 +1,212 @@
+[
+  {
+    "unit_id": "unit_dt_exec_001",
+    "room_type_id": "rt_exec_office_dt",
+    "unit_number": "EO-101",
+    "floor": 1,
+    "status": "available"
+  },
+  {
+    "unit_id": "unit_dt_exec_002",
+    "room_type_id": "rt_exec_office_dt",
+    "unit_number": "EO-102",
+    "floor": 1,
+    "status": "available"
+  },
+  {
+    "unit_id": "unit_dt_exec_003",
+    "room_type_id": "rt_exec_office_dt",
+    "unit_number": "EO-201",
+    "floor": 2,
+    "status": "occupied"
+  },
+  {
+    "unit_id": "unit_dt_desk_001",
+    "room_type_id": "rt_hot_desk_dt",
+    "unit_number": "HD-A01",
+    "floor": 1,
+    "status": "available"
+  },
+  {
+    "unit_id": "unit_dt_desk_002",
+    "room_type_id": "rt_hot_desk_dt",
+    "unit_number": "HD-A02",
+    "floor": 1,
+    "status": "available"
+  },
+  {
+    "unit_id": "unit_dt_desk_003",
+    "room_type_id": "rt_hot_desk_dt",
+    "unit_number": "HD-A03",
+    "floor": 1,
+    "status": "available"
+  },
+  {
+    "unit_id": "unit_dt_desk_004",
+    "room_type_id": "rt_hot_desk_dt",
+    "unit_number": "HD-A04",
+    "floor": 1,
+    "status": "available"
+  },
+  {
+    "unit_id": "unit_dt_desk_005",
+    "room_type_id": "rt_hot_desk_dt",
+    "unit_number": "HD-A05",
+    "floor": 1,
+    "status": "available"
+  },
+  {
+    "unit_id": "unit_dt_desk_006",
+    "room_type_id": "rt_hot_desk_dt",
+    "unit_number": "HD-B01",
+    "floor": 2,
+    "status": "available"
+  },
+  {
+    "unit_id": "unit_dt_desk_007",
+    "room_type_id": "rt_hot_desk_dt",
+    "unit_number": "HD-B02",
+    "floor": 2,
+    "status": "available"
+  },
+  {
+    "unit_id": "unit_dt_desk_008",
+    "room_type_id": "rt_hot_desk_dt",
+    "unit_number": "HD-B03",
+    "floor": 2,
+    "status": "available"
+  },
+  {
+    "unit_id": "unit_dt_desk_009",
+    "room_type_id": "rt_hot_desk_dt",
+    "unit_number": "HD-B04",
+    "floor": 2,
+    "status": "available"
+  },
+  {
+    "unit_id": "unit_dt_desk_010",
+    "room_type_id": "rt_hot_desk_dt",
+    "unit_number": "HD-B05",
+    "floor": 2,
+    "status": "maintenance"
+  },
+  {
+    "unit_id": "unit_dt_meet_001",
+    "room_type_id": "rt_meeting_large_dt",
+    "unit_number": "MR-301",
+    "floor": 3,
+    "status": "available"
+  },
+  {
+    "unit_id": "unit_dt_meet_002",
+    "room_type_id": "rt_meeting_large_dt",
+    "unit_number": "MR-302",
+    "floor": 3,
+    "status": "available"
+  },
+  {
+    "unit_id": "unit_tc_office_001",
+    "room_type_id": "rt_private_office_tc",
+    "unit_number": "PO-101",
+    "floor": 1,
+    "status": "available"
+  },
+  {
+    "unit_id": "unit_tc_office_002",
+    "room_type_id": "rt_private_office_tc",
+    "unit_number": "PO-102",
+    "floor": 1,
+    "status": "available"
+  },
+  {
+    "unit_id": "unit_tc_office_003",
+    "room_type_id": "rt_private_office_tc",
+    "unit_number": "PO-103",
+    "floor": 1,
+    "status": "occupied"
+  },
+  {
+    "unit_id": "unit_tc_office_004",
+    "room_type_id": "rt_private_office_tc",
+    "unit_number": "PO-104",
+    "floor": 1,
+    "status": "available"
+  },
+  {
+    "unit_id": "unit_tc_office_005",
+    "room_type_id": "rt_private_office_tc",
+    "unit_number": "PO-201",
+    "floor": 2,
+    "status": "available"
+  },
+  {
+    "unit_id": "unit_tc_office_006",
+    "room_type_id": "rt_private_office_tc",
+    "unit_number": "PO-202",
+    "floor": 2,
+    "status": "available"
+  },
+  {
+    "unit_id": "unit_tc_office_007",
+    "room_type_id": "rt_private_office_tc",
+    "unit_number": "PO-203",
+    "floor": 2,
+    "status": "available"
+  },
+  {
+    "unit_id": "unit_tc_office_008",
+    "room_type_id": "rt_private_office_tc",
+    "unit_number": "PO-204",
+    "floor": 2,
+    "status": "available"
+  },
+  {
+    "unit_id": "unit_tc_office_009",
+    "room_type_id": "rt_private_office_tc",
+    "unit_number": "PO-301",
+    "floor": 3,
+    "status": "available"
+  },
+  {
+    "unit_id": "unit_tc_office_010",
+    "room_type_id": "rt_private_office_tc",
+    "unit_number": "PO-302",
+    "floor": 3,
+    "status": "available"
+  },
+  {
+    "unit_id": "unit_tc_collab_001",
+    "room_type_id": "rt_collab_space_tc",
+    "unit_number": "CS-A",
+    "floor": 1,
+    "status": "available"
+  },
+  {
+    "unit_id": "unit_tc_collab_002",
+    "room_type_id": "rt_collab_space_tc",
+    "unit_number": "CS-B",
+    "floor": 2,
+    "status": "available"
+  },
+  {
+    "unit_id": "unit_tc_collab_003",
+    "room_type_id": "rt_collab_space_tc",
+    "unit_number": "CS-C",
+    "floor": 2,
+    "status": "available"
+  },
+  {
+    "unit_id": "unit_tc_collab_004",
+    "room_type_id": "rt_collab_space_tc",
+    "unit_number": "CS-D",
+    "floor": 3,
+    "status": "available"
+  },
+  {
+    "unit_id": "unit_tc_collab_005",
+    "room_type_id": "rt_collab_space_tc",
+    "unit_number": "CS-E",
+    "floor": 3,
+    "status": "available"
+  }
+]

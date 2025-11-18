@@ -1,0 +1,26 @@
+[
+  {
+    "room_type_id": "rt_exec_office_dt",
+    "rate_type": "daily",
+    "amount": 160.00,
+    "currency": "USD",
+    "effective_date": "2025-04-01",
+    "end_date": "2025-06-30"
+  },
+  {
+    "room_type_id": "rt_meeting_large_dt",
+    "rate_type": "hourly",
+    "amount": 75.00,
+    "currency": "USD",
+    "effective_date": "2025-01-01",
+    "end_date": "2025-12-31"
+  },
+  {
+    "room_type_id": "rt_collab_space_tc",
+    "rate_type": "hourly",
+    "amount": 40.00,
+    "currency": "USD",
+    "effective_date": "2025-07-01",
+    "end_date": "2025-12-31"
+  }
+]
