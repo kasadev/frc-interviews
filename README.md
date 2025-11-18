@@ -1,5 +1,14 @@
 # StayRate - Rate Management System
 
+> **⚠️ INTERVIEWER MATERIALS BRANCH**
+>
+> This branch contains solutions, evaluation rubrics, and interviewer guides.
+> **DO NOT share this branch with candidates.**
+>
+> For candidate-facing materials, use the `main` branch.
+
+---
+
 A rate management system for hospitality space operations, managing pricing for room types across multiple properties.
 
 ## Overview
@@ -354,3 +363,56 @@ For questions or issues:
 ## License
 
 Proprietary - Internal Use Only
+
+---
+
+## 📚 Interviewer Resources (This Branch Only)
+
+**Complete Interview Materials:**
+
+1. **[INTERVIEWER_SCRIPT.md](INTERVIEWER_SCRIPT.md)** - Word-for-word script for conducting the interview
+2. **[EVALUATION_CHECKLIST.md](EVALUATION_CHECKLIST.md)** - Quick scoring form to use during interview
+3. **[SOLUTIONS.md](SOLUTIONS.md)** - Complete solutions for all tasks and bug fixes
+4. **[docs/EVALUATION_RUBRIC.md](docs/EVALUATION_RUBRIC.md)** - Detailed scoring rubric (80% = hire)
+5. **[SAMPLE_INTERVIEW.md](SAMPLE_INTERVIEW.md)** - Complete walkthrough of a strong candidate (91/100)
+6. **[docs/FOLLOW_UP_QUESTIONS.md](docs/FOLLOW_UP_QUESTIONS.md)** - 28 probing questions with answer rubrics
+7. **[docs/INTERVIEW_GUIDE.md](docs/INTERVIEW_GUIDE.md)** - Complete interview playbook
+8. **[REPO_STRUCTURE.md](REPO_STRUCTURE.md)** - How to maintain candidate/interviewer separation
+
+**Quick Start for Interviewers:**
+
+```bash
+# Clone and switch to interviewer branch
+git clone https://github.com/kasadev/frc-interviews.git
+cd frc-interviews
+git checkout interviewer-materials
+
+# Before interview, read:
+# 1. INTERVIEWER_SCRIPT.md (presentation guide)
+# 2. EVALUATION_CHECKLIST.md (scoring form)
+
+# During interview, reference:
+# - FOLLOW_UP_QUESTIONS.md (probing questions)
+# - SOLUTIONS.md (if candidate asks for hints)
+
+# After interview:
+# - Complete EVALUATION_CHECKLIST.md
+# - Score using EVALUATION_RUBRIC.md
+```
+
+**To Share with Candidates:**
+
+Only share the `main` branch:
+```
+https://github.com/kasadev/frc-interviews
+```
+
+**Do NOT share this `interviewer-materials` branch!**
+
+---
+
+**For candidate-facing materials only, switch to `main` branch:**
+
+```bash
+git checkout main
+```
