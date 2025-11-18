@@ -16,7 +16,7 @@ This document shows a realistic interview with a **good candidate** (target: 80%
 
 ### Minute 0-5: Initial Setup
 
-**Interviewer:** "Thanks for joining, Alex! We're going to work with SpaceRate Pro, a rate management system. The repo link is in the chat. Could you start by cloning it and getting it running?"
+**Interviewer:** "Thanks for joining, Alex! We're going to work with StayRate, a rate management system. The repo link is in the chat. Could you start by cloning it and getting it running?"
 
 **Alex:** "Sure! Let me clone it..."
 

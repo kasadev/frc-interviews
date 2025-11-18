@@ -61,7 +61,7 @@ async function start() {
     console.log('Database initialized with seed data');
 
     app.listen(PORT, () => {
-      console.log(`\n🚀 SpaceRate Pro API running on http://localhost:${PORT}`);
+      console.log(`\n🚀 StayRate API running on http://localhost:${PORT}`);
       console.log(`📖 Health check: http://localhost:${PORT}/health`);
       console.log(`📊 API Documentation: See README.md\n`);
     });

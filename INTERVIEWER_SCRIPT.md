@@ -67,7 +67,7 @@ See you soon!
 
 > "Great! Let me share some context about the domain:
 >
-> We're working with **SpaceRate Pro**, a rate management system for a short-term rental hospitality company - think vacation rentals, apartments, that kind of thing.
+> We're working with **StayRate**, a rate management system for a short-term rental hospitality company - think vacation rentals, apartments, that kind of thing.
 >
 > The system manages:
 > - **Properties** - buildings or locations

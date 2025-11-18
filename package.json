@@ -1,5 +1,5 @@
 {
-  "name": "spacerate-pro",
+  "name": "stayrate",
   "version": "1.0.0",
   "description": "Rate management system for hospitality spaces",
   "main": "server.js",

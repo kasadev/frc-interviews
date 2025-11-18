@@ -1,4 +1,4 @@
-# SpaceRate Pro - Interview Guide
+# StayRate - Interview Guide
 
 ## Overview
 
@@ -40,7 +40,7 @@ Assess the candidate's ability to:
 
 ### Instructions for Candidate
 
-> "We're going to work with SpaceRate Pro, a rate management system for hospitality spaces. First, please:
+> "We're going to work with StayRate, a rate management system for hospitality spaces. First, please:
 >
 > 1. Clone the repository and set it up locally
 > 2. Read through the PRD.md to understand the business domain
@@ -364,13 +364,13 @@ Candidates should identify some or all of these intentional issues:
 ### What to Send Before Interview
 
 ```
-Subject: Technical Interview - SpaceRate Pro
+Subject: Technical Interview - StayRate
 
 Hi [Candidate Name],
 
 Looking forward to our interview on [Date/Time]!
 
-We'll be working with a rate management system called SpaceRate Pro.
+We'll be working with a rate management system called StayRate.
 Please clone this repository and have it ready: [REPO_URL]
 
 You'll need:

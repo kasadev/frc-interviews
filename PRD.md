@@ -1,8 +1,8 @@
-# Product Requirements Document: SpaceRate Pro
+# Product Requirements Document: StayRate
 
 ## Executive Summary
 
-SpaceRate Pro is a rate management system for hospitality space operations. The system manages pricing for different room types across multiple properties, enabling efficient rate administration, synchronization with external pricing systems, and automated booking price calculations.
+StayRate is a rate management system for hospitality space operations. The system manages pricing for different room types across multiple properties, enabling efficient rate administration, synchronization with external pricing systems, and automated booking price calculations.
 
 ## Business Context
 

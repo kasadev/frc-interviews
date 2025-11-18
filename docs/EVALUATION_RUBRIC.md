@@ -1,4 +1,4 @@
-# Evaluation Rubric - SpaceRate Pro Interview
+# Evaluation Rubric - StayRate Interview
 
 **Philosophy:** This rubric is calibrated so that a **good candidate scores 80%** (70-84 points). Exceptional candidates will score 85-100. The interview is intentionally challenging - candidates should NOT complete everything perfectly.
 

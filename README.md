@@ -1,10 +1,10 @@
-# SpaceRate Pro - Rate Management System
+# StayRate - Rate Management System
 
 A rate management system for hospitality space operations, managing pricing for room types across multiple properties.
 
 ## Overview
 
-SpaceRate Pro is a REST API service that handles:
+StayRate is a REST API service that handles:
 - Rate management for different room types (offices, desks, meeting rooms)
 - Property and inventory tracking (properties → room types → units)
 - Booking creation with automated price calculation
