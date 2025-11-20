@@ -142,5 +142,23 @@
     "currency": "USD",
     "effective_date": "2025-07-01",
     "end_date": "2025-12-31"
+  },
+  {
+    "rate_id": "rate_exec_dt_monthly_h2",
+    "room_type_id": "rt_exec_office_dt",
+    "rate_type": "monthly",
+    "amount": 4200,
+    "currency": "USD",
+    "effective_date": "2025-07-01",
+    "end_date": "2025-12-31"
+  },
+  {
+    "rate_id": "rate_collab_tc_daily_h2",
+    "room_type_id": "rt_collab_space_tc",
+    "rate_type": "daily",
+    "amount": 225,
+    "currency": "USD",
+    "effective_date": "2025-07-01",
+    "end_date": "2025-12-31"
   }
 ]

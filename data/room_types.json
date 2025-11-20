@@ -11,7 +11,21 @@
       "Whiteboard",
       "External Monitor",
       "High-Speed Internet"
-    ]
+    ],
+    "pricing_config": {
+      "minimum_stay_nights": 3,
+      "available_rate_types": ["daily", "monthly"],
+      "rate_selection_strategy": "lowest_price",
+      "length_of_stay_discounts": [
+        { "min_nights": 7, "discount_percent": 5 },
+        { "min_nights": 14, "discount_percent": 10 },
+        { "min_nights": 30, "discount_percent": 15 },
+        { "min_nights": 90, "discount_percent": 20 }
+      ],
+      "weekend_pricing": {
+        "enabled": false
+      }
+    }
   },
   {
     "room_type_id": "rt_hot_desk_dt",
@@ -24,7 +38,24 @@
       "Chair",
       "Power Outlet",
       "WiFi"
-    ]
+    ],
+    "pricing_config": {
+      "minimum_stay_nights": 0,
+      "available_rate_types": ["hourly", "daily", "monthly"],
+      "rate_selection_strategy": "prefer_daily",
+      "length_of_stay_discounts": [
+        { "min_nights": 5, "discount_percent": 10 },
+        { "min_nights": 20, "discount_percent": 20 }
+      ],
+      "weekend_pricing": {
+        "enabled": false
+      },
+      "hourly_booking_rules": {
+        "minimum_hours": 2,
+        "maximum_hours": 8,
+        "available_days": ["monday", "tuesday", "wednesday", "thursday", "friday"]
+      }
+    }
   },
   {
     "room_type_id": "rt_meeting_large_dt",
@@ -38,7 +69,22 @@
       "Video Conferencing",
       "Whiteboard",
       "Catering Setup"
-    ]
+    ],
+    "pricing_config": {
+      "minimum_stay_nights": 0,
+      "available_rate_types": ["hourly"],
+      "rate_selection_strategy": "single_rate_type",
+      "length_of_stay_discounts": [],
+      "weekend_pricing": {
+        "enabled": true,
+        "premium_percent": 25,
+        "weekend_days": ["saturday", "sunday"]
+      },
+      "hourly_booking_rules": {
+        "minimum_hours": 1,
+        "maximum_hours": 12
+      }
+    }
   },
   {
     "room_type_id": "rt_private_office_tc",
@@ -51,7 +97,18 @@
       "Ergonomic Chair",
       "Storage Cabinet",
       "Window View"
-    ]
+    ],
+    "pricing_config": {
+      "minimum_stay_nights": 1,
+      "available_rate_types": ["daily", "monthly"],
+      "rate_selection_strategy": "lowest_price",
+      "length_of_stay_discounts": [
+        { "min_nights": 30, "discount_percent": 10 }
+      ],
+      "weekend_pricing": {
+        "enabled": false
+      }
+    }
   },
   {
     "room_type_id": "rt_collab_space_tc",
@@ -64,6 +121,17 @@
       "Whiteboard Walls",
       "Standing Tables",
       "Lounge Seating"
-    ]
+    ],
+    "pricing_config": {
+      "minimum_stay_nights": 0,
+      "available_rate_types": ["hourly", "daily"],
+      "rate_selection_strategy": "prefer_hourly",
+      "length_of_stay_discounts": [],
+      "weekend_pricing": {
+        "enabled": true,
+        "premium_percent": 15,
+        "weekend_days": ["saturday", "sunday"]
+      }
+    }
   }
 ]

@@ -65,30 +65,81 @@ router.get('/:id', async (req, res, next) => {
  * POST /api/bookings/calculate-price
  * Calculate price for a booking without creating it
  *
- * TODO: CANDIDATE MUST IMPLEMENT THIS
+ * FEATURE REQUEST: Implement the booking price calculation engine
  *
- * Requirements:
- * 1. Accept unit_id, start_date, end_date in request body
- * 2. Find the unit and its room type
- * 3. Find applicable rates for the room type and date range
- * 4. Calculate total price based on the booking duration
- * 5. Handle cases where:
- *    - No rates exist for the date range
- *    - Rates span multiple periods
- *    - Different rate types (hourly, daily, monthly)
- * 6. Return calculated price and breakdown
+ * Given a unit_id and date range (start_date, end_date), calculate the total
+ * booking price using the room type's rate configuration.
+ *
+ * CORE REQUIREMENTS:
+ * 1. Look up the unit and get its room_type_id
+ * 2. Find rates for that room type that apply to the booking period
+ * 3. Calculate the total price based on the booking duration
+ * 4. Return a breakdown showing how the price was calculated
+ * 5. Handle errors gracefully (unit not found, missing rates, etc.)
+ *
+ * YOUR IMPLEMENTATION WILL ENCOUNTER:
+ * - Simple bookings (single rate period) ✅ Everyone should handle this
+ * - Multi-period bookings (rates change mid-booking) 🔶 Expected
+ * - Rate gaps (no rate configured for some dates) 🔶 Expected
+ * - Multiple rate types (hourly vs daily vs monthly) 🔷 Advanced
+ * - Rate overlaps (data quality issues) 🔴 Advanced
+ * - Minimum stay requirements (see room_type.pricing_config) 🟣 Expert
+ * - Length-of-stay discounts (see room_type.pricing_config) 🟢 Expert
+ *
+ * HINTS:
+ * - Start simple: get single-period bookings working first
+ * - The seed data has intentional complexity - test with different date ranges!
+ * - Room types have a `pricing_config` object with business rules
+ * - Consider how you'd extend this for future requirements (weekend pricing, etc.)
+ * - Think about separation of concerns - calculation vs. API layer
+ *
+ * EXAMPLE REQUEST:
+ * {
+ *   "unit_id": "unit_exec_dt_101",
+ *   "start_date": "2025-01-15",
+ *   "end_date": "2025-01-20"
+ * }
+ *
+ * EXAMPLE RESPONSE:
+ * {
+ *   "success": true,
+ *   "data": {
+ *     "total_price": 750.00,
+ *     "currency": "USD",
+ *     "booking_details": {
+ *       "unit_id": "unit_exec_dt_101",
+ *       "room_type": "Executive Office",
+ *       "start_date": "2025-01-15",
+ *       "end_date": "2025-01-20",
+ *       "total_nights": 5
+ *     },
+ *     "breakdown": [
+ *       {
+ *         "period_start": "2025-01-15",
+ *         "period_end": "2025-01-20",
+ *         "days": 5,
+ *         "rate_type": "daily",
+ *         "rate_amount": 150.00,
+ *         "subtotal": 750.00
+ *       }
+ *     ]
+ *   }
+ * }
+ *
+ * See PRD.md FR-4 for detailed business rules and edge cases.
  */
 router.post('/calculate-price', async (req, res, next) => {
   try {
     const { unit_id, start_date, end_date } = req.body;
 
-    // TODO: Validate required fields
-    // TODO: Find unit
-    // TODO: Find room type from unit
-    // TODO: Find applicable rates
-    // TODO: Calculate price based on duration and rates
-    // TODO: Handle missing rates gracefully
-    // TODO: Return price breakdown
+    // TODO: Your implementation here
+    // Suggested approach:
+    // 1. Validate inputs (required fields, date format, start < end)
+    // 2. Look up unit and room type
+    // 3. Find applicable rates
+    // 4. Calculate price (handle multi-period, rate gaps, etc.)
+    // 5. Apply any discounts or premiums (advanced)
+    // 6. Return structured response
 
     res.status(501).json({
       success: false,
@@ -96,7 +147,7 @@ router.post('/calculate-price', async (req, res, next) => {
         message: 'Price calculation not implemented',
         code: 'NOT_IMPLEMENTED',
         details: {
-          hint: 'This is a key feature for candidates to implement. See PRD.md for business rules.'
+          hint: 'Implement this feature progressively. Start with single-period bookings, then handle complexity.'
         }
       }
     });
